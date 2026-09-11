@@ -1,0 +1,39 @@
+# PlatformIO / IDE
+.pio/
+.vscode/
+.idea/
+
+# Build outputs
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.out
+
+# Local test executables
+core_utilities_test
+procedural_sprite_test
+persistence_model_test
+sprite_demo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Secrets / local configuration
+.env
+.env.*
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.pyc

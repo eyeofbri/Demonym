@@ -1,0 +1,44 @@
+name: Public example validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  host-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build and run core utilities test
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Werror \
+            tests/core_utilities_test.cpp \
+            -Iexamples/core-utilities \
+            -o /tmp/core_utilities_test
+          /tmp/core_utilities_test
+
+      - name: Build and run procedural sprite test
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Werror \
+            tests/procedural_sprite_test.cpp \
+            -o /tmp/procedural_sprite_test
+          /tmp/procedural_sprite_test
+
+      - name: Build and run persistence model test
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Werror \
+            tests/persistence_model_test.cpp \
+            -o /tmp/persistence_model_test
+          /tmp/persistence_model_test
+
+      - name: Build public procedural demo
+        run: |
+          g++ -std=c++17 -Wall -Wextra -Werror \
+            examples/procedural-sprite-demo/main.cpp \
+            -o /tmp/procedural_sprite_demo
+          /tmp/procedural_sprite_demo 12345
