@@ -1,0 +1,29 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Build outputs
+*.bin
+*.elf
+*.hex
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Secrets / environment
+.env
+.env.*
+secrets.*
+credentials.*
+
+# Python
+__pycache__/
+*.pyc
