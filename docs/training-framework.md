@@ -2,6 +2,14 @@
 
 Training started with one minigame and grew into eight programs by v0.9.22.
 
+| Signal Drift | Signal Hopper |
+| --- | --- |
+| ![Signal Drift](../media/screenshots/training-signal-drift.png) | ![Signal Hopper](../media/screenshots/training-signal-hopper.png) |
+
+![Signal Ascent](../media/screenshots/training-signal-ascent.png)
+
+*Signal Ascent*
+
 ## Current programs
 
 | Program | Main idea |

@@ -6,6 +6,8 @@ Roam and Battle make up most of Demonym's risk/reward loop. Roam creates the exp
 
 A Roam run keeps its own generated layout, explored state, Depth, navigation progress, encounters, rewards, and extraction state.
 
+I still want to add a good Roam screenshot here once I have one that shows the map and navigation tools clearly.
+
 ### Depth loop
 
 After clearing a layer, the player can extract or go deeper.
@@ -32,6 +34,8 @@ The generator mixes structural room roles with biome/flavor variants. v0.9.22 in
 Route Map, Compass, Relay Anchors, and Portable Anchors change how easy it is to read or leave a run. They are run tools, not permanent full-map visibility.
 
 ## Battle
+
+![Demonym battle](../media/screenshots/battle.png)
 
 The battle rules are deterministic from agreed state and inputs. That is useful for both normal encounters and ESP-NOW battles.
 

@@ -12,6 +12,8 @@ You hatch and raise one creature at a time, train it through small games, explor
 
 I keep the full game source in a private repo. This public repo is where I am putting the player manual, firmware releases, project notes, a few code examples, and some of the tests I can share without putting the whole game online.
 
+![Demonym title screen](media/screenshots/title.jpg)
+
 See [Repository Scope](REPOSITORY_SCOPE.md) for the public/private split.
 
 ## Quick links
@@ -38,6 +40,26 @@ Demonym started as a procedural sprite experiment and kept growing. The current 
 - Signalpedia discovery tracking
 - Signal Legacy and Echo Eggs for generational inheritance
 - versioned save data with recovery and migration work added over the course of development
+
+## Screenshots
+
+I have started adding captures from the actual v0.9.22 build. I still want to add Roam, Salvage, hardware photos, and a few GIFs later.
+
+| Habitat | Egg |
+| --- | --- |
+| ![Demonym Habitat](media/screenshots/habitat.png) | ![Demonym Egg](media/screenshots/egg.png) |
+
+| Training | Battle |
+| --- | --- |
+| ![Signal Drift Training](media/screenshots/training-signal-drift.png) | ![Demonym Battle](media/screenshots/battle.png) |
+
+| Connect | Signal Legacy |
+| --- | --- |
+| ![Demonym Connect](media/screenshots/connect.png) | ![Demonym Signal Legacy](media/screenshots/signal-legacy.png) |
+
+| Signalpedia | Shop |
+| --- | --- |
+| ![Demonym Signalpedia](media/screenshots/signalpedia.png) | ![Demonym Shop](media/screenshots/shop.png) |
 
 ## Rough system map
 

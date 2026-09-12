@@ -2,6 +2,8 @@
 
 Demonym can connect two nearby Cardputers directly over ESP-NOW. No router or internet connection is needed for local linked play.
 
+![Demonym Connect screen](../media/screenshots/connect.png)
+
 The Connect screen currently supports:
 
 - **Battle** - fight using each player's current creature and moves

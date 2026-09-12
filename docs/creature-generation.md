@@ -4,6 +4,10 @@ Demonym's creatures are generated from compact identity data instead of loading 
 
 The main reason I went this way was simple: I wanted two creatures to feel related without looking like recolors of the exact same sprite, and I wanted the same creature to be rebuildable from saved state.
 
+| Egg | Creature in the Habitat |
+| --- | --- |
+| ![Demonym Egg](../media/screenshots/egg-2.png) | ![Generated Demonym in the Habitat](../media/screenshots/habitat-3.png) |
+
 ## Early reference: Sprator
 
 One repo that helped a lot early on was [yurkth/sprator](https://github.com/yurkth/sprator).

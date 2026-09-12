@@ -8,7 +8,7 @@
 > Raise it. Train it. Carry it.  
 > See what answers back.
 
-<!-- SCREENSHOT: Title screen / DEMONYM splash -->
+![Demonym title screen](media/screenshots/title.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ The Habitat remembers.
 
 So does the lineage.
 
-<!-- SCREENSHOT: Stats identity page showing Name, Type/Lineage, ID, form -->
+<!-- I still want to add a clean Stats identity screenshot here. -->
 
 [Back to Contents](#contents)
 
@@ -114,6 +114,8 @@ So does the lineage.
 # Getting Started
 
 On a fresh installation, Demonym creates a new creature at the **Egg** stage.
+
+![A new Demonym Egg in the Habitat](media/screenshots/egg.png)
 
 The Egg is the first part of the game, not just a loading screen.
 
@@ -209,7 +211,7 @@ Battle shows the commands that are available for the current turn. Use the direc
 > **KEEPER TIP**  
 > If you are unsure what a button does, look at the footer. Demonym usually places the currently relevant control hint at the bottom of the screen.
 
-<!-- SCREENSHOT: Cardputer keyboard with ; , . / Enter and backtick called out -->
+<!-- I still want to add a labeled Cardputer keyboard photo here. -->
 
 [Back to Contents](#contents)
 
@@ -220,6 +222,8 @@ Battle shows the commands that are available for the current turn. Use the direc
 # The Habitat
 
 The **Habitat** is the main screen and the creature's home.
+
+![Demonym Habitat](media/screenshots/habitat.png)
 
 It is not just a status panel. The Demonym moves through it, sleeps there, reacts to objects there, produces waste there, and communicates much of its condition through animation and small visual signals.
 
@@ -254,6 +258,8 @@ Orange alert glyphs indicate something deserves attention. Alerts can represent 
 - Habitat waste.
 
 Alerts are warnings, not orders. You can still decide that one need is more urgent than another.
+
+![Habitat with another creature state](media/screenshots/habitat-2.png)
 
 > **FIELD NOTE**  
 > Quiet time still counts. The creature keeps building active-time history even when nothing major is happening.
@@ -298,7 +304,7 @@ Adult does not mean "finished."
 
 At this point the creature can start leaving a stronger record for future generations.
 
-<!-- SCREENSHOT: Egg, Juvenile, Adult comparison -->
+<!-- I still want to add a clean Egg / Juvenile / Adult comparison here. -->
 
 [Back to Contents](#contents)
 
@@ -441,7 +447,7 @@ Some Rest actions have a cooldown. If the system tells you to return later, use 
 > **KEEPER TIP**  
 > A tired creature with high Hunger is not a good candidate for a long Venture. Sleep and food are cheaper than retreating from the bottom of a bad run.
 
-<!-- SCREENSHOT: Sleeping Habitat / Rest minigame -->
+<!-- I still want to add a sleeping Habitat / Rest screenshot here. -->
 
 [Back to Contents](#contents)
 
@@ -548,7 +554,9 @@ Work is a low-risk way to earn Coins without going into combat or Roam.
 
 The shopkeeper is also part of progression. New stages and milestones may change what the Shop can offer or what the shopkeeper has to say.
 
-<!-- SCREENSHOT: Shop Buy / Sell / Work -->
+| Shop | Shop detail |
+| --- | --- |
+| ![Demonym Shop](media/screenshots/shop.png) | ![Demonym Shop detail](media/screenshots/shop-2.png) |
 
 [Back to Contents](#contents)
 
@@ -611,6 +619,8 @@ If the creature is healthy, active, and Training, development will move forward 
 Training is the safest place to improve the creature while also learning how it behaves under pressure.
 
 Each Training program is a small arcade game with its own rules.
+
+![Signal Drift Training](media/screenshots/training-signal-drift.png)
 
 Training can affect:
 
@@ -736,6 +746,8 @@ Reaching the milestone height counts as a successful tier result, but the run ca
 
 **Core skill:** momentum and landing control.
 
+![Signal Ascent](media/screenshots/training-signal-ascent.png)
+
 ---
 
 ## Packet Catch
@@ -755,7 +767,9 @@ The run uses heart-style in-game Stability. Lose them all and the session ends.
 > **KEEPER TIP**  
 > A bad Training run can still cost Energy, raise Stress, or cause damage. Check the Habitat afterward.
 
-<!-- SCREENSHOT: Training selection carousel -->
+| Signal Drift | Signal Hopper |
+| --- | --- |
+| ![Signal Drift](media/screenshots/training-signal-drift-2.png) | ![Signal Hopper](media/screenshots/training-signal-hopper.png) |
 
 [Back to Contents](#contents)
 
@@ -987,7 +1001,7 @@ Abandoning is destructive.
 
 Use it when you truly want to give up the expedition, not when you merely want to return to the Habitat for a while.
 
-<!-- SCREENSHOT: Roam map with Map, Compass and Anchor indicators -->
+<!-- I still want to add a Roam screenshot with the Map, Compass and Anchor indicators visible. -->
 
 [Back to Contents](#contents)
 
@@ -1036,7 +1050,7 @@ Repeated bad luck is softened by the system, but rarity is still rarity.
 > **KEEPER TIP**  
 > Stop treating "nothing found" as "nothing learned." In Salvage, checked space is information.
 
-<!-- SCREENSHOT: Salvage board with TRACE / OBJ ECHO -->
+<!-- I still want to add a Salvage screenshot with TRACE / OBJ ECHO visible. -->
 
 [Back to Contents](#contents)
 
@@ -1096,6 +1110,8 @@ Do not expect every object to be a secret legendary weapon.
 
 Battle is turn-based.
 
+![Demonym battle](media/screenshots/battle.png)
+
 The creature and its opponent each choose actions, then the turn resolves with damage, status effects, passives, Energy costs, and animations.
 
 A normal battle screen shows:
@@ -1122,6 +1138,8 @@ The game explicitly labels expected matchups as:
 - **REDUCED DAMAGE**
 
 You do not need to memorize an invisible type chart before your first fight.
+
+![Battle move selection](media/screenshots/battle-2.png)
 
 ## Battle flow
 
@@ -1240,6 +1258,8 @@ The Stats → Moveset view shows equipped move information such as:
 - Energy cost.
 
 Locked or unavailable moves are visibly marked and cannot be used simply because the cursor can reach them.
+
+![Another battle state](media/screenshots/battle-3.png)
 
 ## Energy cost
 
@@ -1389,7 +1409,7 @@ Demonym's ordinary world systems do not depend on nearby access points, GPS, or 
 
 Connect is the place where the radio becomes part of play.
 
-<!-- SCREENSHOT: Two Cardputers on Connect discovery screen -->
+![Demonym Connect screen](media/screenshots/connect.png)
 
 [Back to Contents](#contents)
 
@@ -1506,7 +1526,9 @@ That makes it one of the clearest records of how much of Demonym's world you hav
 > **SIGNALPEDIA NOTE**  
 > A blank entry is not missing documentation. It is an invitation.
 
-<!-- SCREENSHOT: Signalpedia lineage index and detail page -->
+| Signalpedia | Signalpedia detail |
+| --- | --- |
+| ![Signalpedia](media/screenshots/signalpedia.png) | ![Signalpedia detail](media/screenshots/signalpedia-2.png) |
 
 [Back to Contents](#contents)
 
@@ -1597,6 +1619,8 @@ An Adult's greatest reward is not a final Level.
 It is the ability to matter to what comes next.
 
 **Signal Legacy** records important parts of a completed life and allows a future generation to inherit a controlled echo of them.
+
+![Signal Legacy](media/screenshots/signal-legacy.png)
 
 Legacy is not a full clone.
 
