@@ -55,6 +55,14 @@ Some late-alpha screens were changed so the player sees the result before heavie
 
 On a desktop, a short write is easy to ignore. On a small ESP32, even a brief storage pause can make a button or result screen feel broken.
 
+## On-device screenshots
+
+v0.9.22.2 has a small screenshot function built into the Cardputer build. Pressing **Fn/Opt + P** writes the current 240x135 framebuffer to the SD card as a PNG under `/demonym/screenshots/`. Files are numbered automatically as `shot_001.png`, `shot_002.png`, and so on.
+
+I added this mostly because taking clean screenshots with a camera was getting in the way of documenting the game. It also gives me a quick way to capture a screen while testing something without adding a separate desktop renderer or rebuilding the UI as a mockup.
+
+The screenshots in the public docs are meant to come from the real game whenever possible.
+
 ## Public tests
 
 The tests in this repo only cover the public examples. The workflow in `.github/workflows/public-examples.yml` builds and runs them with a normal C++17 compiler.

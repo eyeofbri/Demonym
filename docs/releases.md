@@ -18,6 +18,7 @@ Current public milestones:
 - v0.8
 - v0.9
 - v0.9.22
+- v0.9.22.2
 
 The private repo has the patch builds between those versions.
 
@@ -32,7 +33,7 @@ demonym-<device>-v<version>.bin
 For example:
 
 ```text
-demonym-cardputer-adv-v0.9.22.bin
+demonym-cardputer-adv-v0.9.22.2.bin
 demonym-cardputer-zero-v1.0.bin
 ```
 
@@ -74,6 +75,6 @@ I do not want somebody guessing that every `.bin` uses the same flash address.
 For the more important archived releases I may also attach SHA-256 files, for example:
 
 ```text
-demonym-cardputer-adv-v0.9.22.bin
-demonym-cardputer-adv-v0.9.22.sha256
+demonym-cardputer-adv-v0.9.22.2.bin
+demonym-cardputer-adv-v0.9.22.2.sha256
 ```

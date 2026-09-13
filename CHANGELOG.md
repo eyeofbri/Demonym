@@ -2,6 +2,12 @@
 
 This is the shorter public version history. My private repo has the smaller alpha and patch builds in between these releases.
 
+## v0.9.22.2 - Splash Screen Update
+
+This is a small presentation/documentation update on top of the v0.9.22 content-lock build. It adds the newer animated Demonym title/splash screen and the on-device screenshot shortcut used for the current public screenshots. Hold **Fn/Opt + P** to save a 240x135 PNG to `/demonym/screenshots/` on the SD card.
+
+The main gameplay systems are otherwise still on the v0.9.22 content-lock baseline.
+
 ## v0.9.22 - Balance + Content Lock
 
 This is the current late-alpha snapshot. I stopped adding major mechanics here and moved into balance, cleanup, content completion, and testing. The main areas are economy, Energy, Hunger, Stress, healing, Salvage, Roam rewards, battle XP, Retreat, Depth scaling, Legacy inheritance, room content, creature behavior, encounters, and Signalpedia entries.

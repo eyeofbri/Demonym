@@ -4,11 +4,11 @@ I am using this folder for screenshots, hardware photos, GIFs, and diagrams that
 
 ## Screenshots in the repo now
 
-The first batch is from the actual v0.9.22 build:
+The first batch is from the actual Cardputer build. Most of the clean captures can now be taken directly in Demonym with **Fn/Opt + P**. The game saves a 240x135 PNG to `/demonym/screenshots/` on the SD card and numbers the files automatically.
 
 ```text
 media/screenshots/
-├── title.jpg
+├── title.gif
 ├── egg.png
 ├── egg-2.png
 ├── habitat.png
@@ -43,6 +43,6 @@ I still want screenshots for:
 
 I also want to add a few hardware photos, especially two Cardputer ADV units in a linked battle.
 
-GIFs are still on the list too. The ones I would like most are a creature idle loop, one Training game, and a linked battle.
+The animated `title.gif` is in the repo now. I still want a few gameplay GIFs too, especially a creature idle loop, one Training game, and a linked battle.
 
 I plan to keep using captures from the actual game instead of rebuilding the screens as mockups.

@@ -4,7 +4,7 @@
 
 You hatch and raise one creature at a time, train it through small games, explore Roam areas, recover objects and Fragments, battle other creatures, and eventually pass pieces of one generation into the next. Two Cardputers can also connect directly over ESP-NOW for battles and exchanges.
 
-> **Current version:** v0.9.22 - Balance + Content Lock  
+> **Current version:** v0.9.22.2 - Splash Screen Update  
 > **Main hardware:** M5Stack Cardputer ADV  
 > **Language:** C++17  
 > **Framework:** Arduino / PlatformIO  
@@ -12,7 +12,9 @@ You hatch and raise one creature at a time, train it through small games, explor
 
 I keep the full game source in a private repo. This public repo is where I am putting the player manual, firmware releases, project notes, a few code examples, and some of the tests I can share without putting the whole game online.
 
-![Demonym title screen](media/screenshots/title.jpg)
+![Demonym animated title screen](media/screenshots/title.gif)
+
+v0.9.22.2 replaces the older static startup screen with the animated title/splash sequence above.
 
 See [Repository Scope](REPOSITORY_SCOPE.md) for the public/private split.
 
@@ -43,7 +45,11 @@ Demonym started as a procedural sprite experiment and kept growing. The current 
 
 ## Screenshots
 
-I have started adding captures from the actual v0.9.22 build. I still want to add Roam, Salvage, hardware photos, and a few GIFs later.
+I have started adding captures from the actual game. v0.9.22.2 also has a built-in screenshot shortcut, which makes it a lot easier for me to keep the manual and project docs matched to the real Cardputer screen.
+
+On a Cardputer ADV, press **Fn/Opt + P** to save the current screen to the SD card as a 240x135 PNG. Captures go into `/demonym/screenshots/` and use numbered names such as `shot_001.png`, `shot_002.png`, and so on.
+
+I still want to add Roam, Salvage, hardware photos, and a few more GIFs later.
 
 | Habitat | Egg |
 | --- | --- |
@@ -168,7 +174,7 @@ See [Supported Hardware](SUPPORTED_HARDWARE.md) and [Porting Notes](docs/porting
 
 I am using GitHub Releases for the larger public milestones instead of uploading every small internal build.
 
-The public history starts with the early v0.1 through v0.9 milestone builds, plus v0.9.22 as the current content-lock snapshot. The `.bin` files live on the Release pages instead of normal Git history.
+The public history starts with the early v0.1 through v0.9 milestone builds, plus the later v0.9.22 content-lock snapshot and v0.9.22.2 presentation update. The `.bin` files live on the Release pages instead of normal Git history.
 
 See [Release and Binary Notes](docs/releases.md).
 
@@ -197,7 +203,7 @@ See [REPOSITORY_SCOPE.md](REPOSITORY_SCOPE.md) for more detail.
 
 ## Current direction
 
-v0.9.22 is the **Balance + Content Lock** build. I am trying not to add another major mechanic at this point. The current work is mostly balance, cleanup, testing, content completion, presentation, and eventually making the hardware-specific parts easier to port.
+v0.9.22.2 is the current public build. It stays on the **Balance + Content Lock** baseline from v0.9.22 and adds the newer title/splash presentation and screenshot capture support. I am trying not to add another major mechanic at this point. The current work is mostly balance, cleanup, testing, content completion, presentation, and eventually making the hardware-specific parts easier to port.
 
 ---
 

@@ -2,13 +2,13 @@
 
 ## Keeper's Instruction Manual
 
-**Player Manual - v0.9.22 content-lock edition**  
+**Player Manual - v0.9.22.2**  
 **Target hardware:** M5Stack Cardputer ADV
 
 > Raise it. Train it. Carry it.  
 > See what answers back.
 
-![Demonym title screen](media/screenshots/title.jpg)
+![Demonym animated title screen](media/screenshots/title.gif)
 
 ---
 
@@ -113,6 +113,8 @@ So does the lineage.
 
 # Getting Started
 
+v0.9.22.2 opens with the newer animated Demonym title screen, then moves into the Habitat.
+
 On a fresh installation, Demonym creates a new creature at the **Egg** stage.
 
 ![A new Demonym Egg in the Habitat](media/screenshots/egg.png)
@@ -191,6 +193,26 @@ The game uses the Cardputer's punctuation cluster as a compact directional pad:
 | `Space`     | Context action in some activities and Habitat tools              |
 
 Some games also accept other convenient directional or action keys when displayed on-screen. When a minigame uses special controls, its intro card explains them before play begins.
+
+### Taking screenshots
+
+v0.9.22.2 includes a built-in screenshot shortcut. Hold **Fn/Opt** and press **P** to save the current game screen to the SD card.
+
+Screenshots are saved as full 240x135 PNG files in:
+
+```text
+/demonym/screenshots/
+```
+
+The filenames count upward automatically:
+
+```text
+shot_001.png
+shot_002.png
+shot_003.png
+```
+
+An SD card needs to be mounted for the capture to be saved. This is also how I am capturing most of the clean game screenshots used in this manual and the public repo.
 
 ### Menus
 
